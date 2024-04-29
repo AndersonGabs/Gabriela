@@ -19,14 +19,14 @@
     }
     .card {
       perspective: 1000px; /* Adicionando perspectiva para efeito 3D */
-      height: 400px;
+      height: 300px;
       border: none;
       background: none;
     /* Defina a altura da carta conforme necessário */
     }
     .card:hover .flip-card-inner {
       transform: rotateY(180deg); 
-      border: 20px solid rgb(231, 226, 226);
+      border: 15px solid rgb(231, 226, 226);
       border-radius: 20px;/* Rotação 3D quando o mouse está sobre a foto */
     }
     .flip-card {
@@ -34,7 +34,7 @@
       height: 100%;
       position: relative;
       transform-style: preserve-3d;
-      transition: transform 0.8s; 
+      transition: transform 0.7s; 
       
       /* Transição suave para transformação */
     }
@@ -105,7 +105,7 @@
 </head>
 <body>
   <div id="banner" style="background-image: url(img/back.jpeg);">
-<div class="container">
+<div class="container p-1">
   <h2 class="text-center my-4 title">Bora jogar uno ?</h2>
   <h4 class="text-center my-4 carta "> Escolha uma carta</h4>
   <div class="row">
